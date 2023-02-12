@@ -1,0 +1,542 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    font-family: Merriweather Sans 
+    
+   
+    
+  }
+  body{
+    background-color: var(--body-bg-color);
+  }
+  p{
+    font-weight: 400, 500 e 700
+   
+
+  }
+  a{
+    color: inherit; 
+  
+  
+  
+  } 
+  /*caixas principais*/
+  .profile{
+    border-radius: 20px;
+    position: absolute;
+    width: 348px;
+    height: 292px;
+    left: 40px;
+    top: 40px;
+    background-color: var(--bg-cards);
+  }
+  .links{
+    position: absolute;
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    position: absolute;
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+
+  }
+  .tecnologias{
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    position: absolute;
+    width: 348px;
+    height: 208px;
+    left: 40px;
+    top: 740px;
+  }
+  .myprojects{
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 40px;
+  }
+  .project1{
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 448px;
+    top: 157px
+   
+  }
+  .project2{
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 939px;
+    top: 157px;
+
+  }
+  .experiencia{
+    background-color: var(--bg-cards);
+    position: absolute;
+    width: 952px;
+    height: 501px;
+    left: 448px;
+    top: 400px;
+  }
+  /*persolalização da caixa profile*/
+  .elipse{
+   box-sizing: border-box;
+   
+   border: 2px solid #00FF00;
+   border-radius: 50%;
+   background-image: url(imagens/IMG_20200514_193425_097.jpg);
+   position: absolute;
+   width: 128px;
+   height: 128px;
+   left: 150px;
+   top: 72px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .textonome{
+    position: absolute;
+    width: 196px;
+    height: 26px;
+    left: 116px;
+    top: 200px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #837E9F;
+
+  }
+  .textotrabalho{
+    position: absolute;
+    width: 130px;
+    height: 27px;
+    left: 150px;
+    top: 276px;
+   font-family: 'Merriweather Sans'; 
+   font-style: normal;
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 16px;
+   text-align: center;
+   color: #837E9F;
+  }
+  /*logos*/
+  .logoloc{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 392px;
+    background-image: url(assets/map-pin.svg);
+    z-index: 1;
+    
+    
+    
+  
+   
+  }
+  .logobolsa{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 436px;
+    background-image: url(assets/briefcase.svg);
+    z-index: 1;
+
+    
+  }
+  .logogithub{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 480px;
+    background-image: url(assets/github.svg);
+    z-index: 1;
+  }
+  .logolinkind{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 524px;
+    background-image: url(assets/linkedin.svg);
+    z-index: 1;
+    
+    
+
+  }
+  .logoemail{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 568px;
+    z-index: 1;
+    background-image: url(assets/mail.svg);    
+
+
+
+
+
+
+
+
+  }
+  /*texto do lado das logo*/
+  .localizacao{
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    left: 124px;
+    top: 379px;
+    z-index: 1;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+   line-height: 16px;
+    
+
+  }
+  .Trabalho{
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 124px;
+    top: 425px;
+    z-index: 1;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+   line-height: 16px;
+   
+
+
+  }
+  .textogithub{
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 124px;
+    top: 465px;
+    z-index: 1;
+
+
+
+  }
+  .textolinkind{
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 124px;
+    top: 500px;
+    z-index: 1;
+    color: black;
+
+
+  }
+  .textoemail{
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 124px;
+    top: 554px;
+    z-index: 1;
+  }
+  /*caixa tecnologias*/
+  .textotecnologia{
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 60px;
+    top: 740px;
+    font-size: 20px;
+    z-index: 1;
+   text-align: center;
+    
+  }
+  .caixajavascript{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 70px;
+    top: 816px;
+    background-color: #CB92B1;
+    border-radius: 50px;
+    z-index: 1;
+  }
+  .textojavascript{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 70px;
+    top: 810px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    z-index: 1;
+    
+  }
+  .caixagit{
+    position: absolute;
+    width: 86px;
+   height: 24px;
+   left: 171px;
+   top: 816px;
+   background-color: #CB92B1;
+   border-radius: 50px;
+   z-index: 1;
+
+
+  }
+  .textogit{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 171px;
+    top: 812px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  .caixacss{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 272px;
+    top: 816px;
+    background-color: #CB92B1;
+    border-radius: 50px;
+    z-index: 1;
+    
+  }
+  .textocss{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 272px;
+    top: 813px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  .caixahtml{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 70px;
+    top: 855px;
+    background-color: #CB92B1;
+    border-radius: 50px;
+    z-index: 1;
+
+
+  }
+  .textohtml{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 70px;
+    top: 852px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+
+
+
+
+
+
+  }
+  /*personalizando as caixas do myprojects*/
+  .textomyprojects{
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 478px;
+    top: 70px; 
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+}
+.emojipasta{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 478px;
+  top: 187px;
+
+  
+  
+}
+.emojipasta2{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 969px;
+  top: 187px;
+
+}
+.textoprojects1{
+  position: absolute;
+  width: 309px;
+  height: 17px;
+  left: 514px;
+  top: 173px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 20px;
+  color: #837E9F; 
+  
+}
+.textoprojects2{
+position: absolute;
+width: 309px;
+height: 17px;
+left: 1005px;
+top: 173px;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 20px;
+color: #837E9F;
+z-index: 1;
+
+
+}
+.textoprojects3{
+position: absolute;
+width: 421px;
+height: 19px;
+left: 478px;
+top: 227px;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #837E9F;
+}
+.textoprojects4{
+  position: absolute;
+  width: 421px;
+  height: 19px;
+  left: 969px;
+  top: 227px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;  
+  color: #837E9F;
+  z-index: 1;
+}
+/*personalizando a caixa experiencia*/
+.pastadetrabalho{
+  position: absolute;
+  left: 478px;
+  top: 420px;
+  z-index: 1;
+  font-size: 20;
+   
+}
+.textoexperiencia{
+position: absolute;
+width: 612px;
+height: 31px;
+left: 626px;
+top: 420px;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 23px;
+color: #837E9F;
+}
+.textoexperiencia2{
+  position: absolute;
+  width: 501px;
+  height: 20px;
+  left: 626px;
+  top: 500px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #837E9F;
+}
+.habilidades{
+  position: absolute;
+  width: 83px;
+  height: 18px;
+  left: 626px;
+  top: 600px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  color: #837E9F;
+
+}
+.textohabilidades{
+  position: absolute;
+  width: 501px;
+  height: 20px;
+  left: 626px;
+  top: 640px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px; 
+  color: #837E9F;
+
+
+
+
+
+
+
+
+}
